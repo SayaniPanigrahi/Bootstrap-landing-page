@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+.container{
+    position:absolute;
+    top:0%;
+    left:0%;
+
+}
+.container img{
+    width:150px;
+}
+#main{
+    position:relative;
+    background:url("https://images.pexels.com/photos/3705529/pexels-photo-3705529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size:cover;
+    background-position: center;
+    height:600px;
+    background-repeat: no-repeat;
+  
+}
+.nav-item{
+
+margin:0 20px;
+color: #000000;
+font-weight:700;
+
+}
+.navbar-nav{
+  position:relative;
+  left:25%;
+  top:0%;
+
+}
+.header-main{
+    margin-top:20%;
+}
+.header-info{
+    font-weight:900;
+    font-size:2rem;
+    color:white;
+    font-family: 'Nunito',serif;;
+}
+.thumbnail img{
+    margin-top:3rem;
+    margin-left:1rem;
+}
+.caption p{
+    color:black;
+    font-weight: 500;
+    margin-top:1rem;
+    margin-left: 2rem;
+}
+/*HOVER*/
+
+
+  
+  
+  .overlay {
+    position: absolute;
+    bottom: 50%;
+    left:1.5;
+    right:0;
+    background-color:black;
+    opacity:0.7;
+    overflow: hidden;
+    width:80%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .thumbnail:hover .overlay {
+   
+    height:50%;
+    bottom: 0;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text-center{
+      color:black;
+      font-family: 'Redressed',serif;
+  }
+ .carousel-inner img{
+     background-size: cover;
+
+ }
